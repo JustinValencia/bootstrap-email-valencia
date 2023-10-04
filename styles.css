@@ -1,5 +1,6 @@
     body {
         background-color: #E0BAF2;
+        overflow:hidden;
     }
     
     .lavender {
@@ -12,6 +13,13 @@
         background-color: rgb(182, 182, 182);
     }
 
+    .emailbox {
+        display: flex;
+        height: 200px;
+        border:1px solid rgb(78, 78, 78); 
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255);
+    }
     .white {
         border:1px solid rgb(78, 78, 78); 
         border-radius: 20px;
@@ -34,11 +42,49 @@
     }
 
     .buttonspace {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 7px;
+        margin-bottom: 7px;
     }
 
     .buttonbottom {
-        margin-top: 100px;
-        margin-bottom: 20px;
+        margin-top: 80px;
+        margin-bottom: 10px;
     }
+
+    /*Set the row height to the viewport*/
+.row-height{
+    height: 100vh;
+  }
+  
+  /*Set up the columns with a 100% height, body color and overflow scroll*/
+  
+  .scroll{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    overflow-y: scroll;
+  }
+  
+  
+  /*Remove the scrollbar from Chrome, Safari, Edge and IE*/
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+  
+  * {
+    -ms-overflow-style: none !important;
+  }
+
+  .logo {
+    color: white;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .email {
+    border:1px solid rgb(78, 78, 78); 
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
