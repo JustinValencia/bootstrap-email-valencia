@@ -13,6 +13,8 @@
 </head>
 
 <body>
+    <!--We might need an extra column up here (Header) -->
+    <!--We might need another extra column up here (Search Bar and Menu)-->
     <!-- Dropdown button -->
     <div class="dropdown d-lg-none">
         <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -27,41 +29,47 @@
         </ul>
     </div>
     <!-- Search Bar -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-light">
+                <form class="form-inline">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </nav>
+        </div>
+    </div>
 
     <!-- Nav Bar? -->
 
-    <!-- Columns..? -->
+    <!-- Beginning of Three Column Ratio -->
     <div class="container-fluid text-center">
         <div class="row">
-            <div class="col-lg-2 d-none d-lg-block">
+            <div class="col-lg-2 d-none d-lg-block d-flex align-items-center">
+            <ul class="list-group">
                 Menu (Desktop View only)
-                <button type="button" class="btn btn-primary">Sent</button>
-                <button type="button" class="btn btn-primary">Drafts</button>
-                <button type="button" class="btn btn-primary">Inbox</button>
-                <button type="button" class="btn btn-primary">Junk</button>
-                <button type="button" class="btn btn-primary">All Mail</button>
-                <button type="button" class="btn btn-danger">Sign out</button>
+                <button type="button" class="btn btn-primary buttonspace">Sent</button>
+                <button type="button" class="btn btn-primary buttonspace">Drafts</button>
+                <button type="button" class="btn btn-primary buttonspace">Inbox</button>
+                <button type="button" class="btn btn-primary buttonspace">Junk</button>
+                <button type="button" class="btn btn-primary buttonspace">All Mail</button>
+                <button type="button" class="btn btn-danger buttonbottom">Sign out</button>
+            </ul>
             </div>
-            <div class="col" style="border: 1px solid rgb(78, 78, 78); border-radius: 20px;">
+            <div class="col white">
                 Message Log
-                <h5
-                    style="border: 1px solid rgb(78, 78, 78); border-radius: 20px; background-color:rgb(182, 182, 182);">
+                <h5 class="selected">
                     From Mom: <br>
                     Will you be coming home for dinner?</h5>
-                <h5
-                    style="border: 1px solid rgb(78, 78, 78); border-radius: 20px; background-color:rgb(182, 182, 182);">
+                <h5 class="textbox">
                     From Dad: <br> The toilet is clogged. xD</h5>
-                <h5
-                    style="border: 1px solid rgb(78, 78, 78); border-radius: 20px; background-color:rgb(182, 182, 182);">
+                <h5 class="textbox">
                     From Dog: <br> bark bark bark bark bark bark bark bark bark bark bark bark</h5>
-                <h5
-                    style="border: 1px solid rgb(78, 78, 78); border-radius: 20px; background-color:rgb(182, 182, 182);">
+                <h5 class="textbox">
                     From Best Friend1: <br> Do you want to play video games?</h5>
-                <h5
-                    style="border: 1px solid rgb(78, 78, 78); border-radius: 20px; background-color:rgb(182, 182, 182);">
+                <h5 class="textbox">
                     From Best Friend2: <br> Did you see what Steve was saying about you?</h5>
-                <h5
-                    style="border: 1px solid rgb(78, 78, 78); border-radius: 20px; background-color:rgb(182, 182, 182);">
+                <h5 class="textbox">
                     From School: <br> Career Fair coming up! Go Talk to people.</h5>
             </div>
             <div class="col-sm d-none d-sm-block">

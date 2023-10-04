@@ -2,3 +2,43 @@
         background-color: #E0BAF2;
     }
     
+    .lavender {
+        background-color: #E0BAF2;
+    }
+
+    .textbox {
+        border:1px solid rgb(78, 78, 78); 
+        border-radius: 20px;
+        background-color: rgb(182, 182, 182);
+    }
+
+    .white {
+        border:1px solid rgb(78, 78, 78); 
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    h5 {
+        display: block;
+        text-decoration: none;
+      }
+      
+    h5:hover {
+        background-color: #e5e5e5;
+      }
+
+    .selected {
+        border:1px solid rgb(78, 78, 78); 
+        border-radius: 20px;
+        background-color: #e5e5e5;
+    }
+
+    .buttonspace {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .buttonbottom {
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
